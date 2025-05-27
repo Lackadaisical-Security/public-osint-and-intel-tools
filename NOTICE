@@ -1,0 +1,33 @@
+OSINT & Intelligence Gathering Toolkit
+Copyright (c) 2024 Lackadaisical Security
+https://lackadaisical-security.com/
+
+This product includes software developed by Lackadaisical Security.
+
+ATTRIBUTION NOTICE:
+This toolkit was created by Lackadaisical Security for educational and 
+ethical security research purposes. When using this software, please 
+acknowledge Lackadaisical Security and include a link to our website.
+
+ETHICAL USAGE GUIDELINES:
+- This toolkit is intended for lawful security research only
+- Always obtain proper authorization before gathering intelligence
+- Respect privacy laws and regulations in your jurisdiction
+- Use responsible disclosure practices when reporting findings
+- Do not use this toolkit for malicious purposes
+
+THIRD-PARTY COMPONENTS:
+This software uses the following open-source libraries:
+- requests: Apache License 2.0
+- beautifulsoup4: MIT License
+- python-whois: MIT License
+- dnspython: ISC License
+- Pillow: HPND License
+- colorama: BSD License
+- tabulate: MIT License
+
+For questions, support, or to report security issues:
+Visit: https://lackadaisical-security.com/
+Email: security@lackadaisical-security.com
+
+Remember: With great power comes great responsibility. Use these tools ethically.
