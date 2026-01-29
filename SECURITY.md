@@ -301,7 +301,7 @@ This software contains security analysis and cryptographic capabilities that may
 
 **The following countries and regions are subject to U.S. sanctions and export restrictions:**
 
-**Comprehensive Sanctions (as of 2026):**
+**Comprehensive Sanctions (as of January 2026):**
 - 🚫 **Cuba** - Comprehensive trade embargo
 - 🚫 **Iran** - Comprehensive sanctions program
 - 🚫 **North Korea (DPRK)** - Comprehensive sanctions
@@ -436,7 +436,7 @@ Many countries regulate encryption import and use. Verify local laws before impo
    ```bash
    # Example: Check if IP address is in sanctioned country
    # (This is illustrative only - use official screening tools)
-   # Replace IP_ADDRESS with the actual IP address to check
+   # Replace the example IP (1.2.3.4) with the actual IP address to check
    curl -s "https://ipapi.co/1.2.3.4/json/" | jq '.country'
    
    # For official screening, use:
@@ -524,7 +524,7 @@ The export control information provided in this document is for general informat
 **The maintainers:**
 - Are not export control attorneys or licensed advisors
 - Make no representations regarding the accuracy or completeness of this information
-- Accept no liability for export control violations or penalties
+- Do not provide legal advice regarding export compliance
 - Strongly recommend consulting with qualified legal counsel and export compliance professionals
 
 **Users are solely responsible for:**
@@ -533,6 +533,8 @@ The export control information provided in this document is for general informat
 - Complying with all applicable laws and regulations
 - Staying informed of regulatory changes
 - Implementing appropriate compliance programs
+
+**For complete legal terms including indemnification and liability provisions, see the [LICENSE](LICENSE) file.**
 
 **For official guidance, contact the relevant government agencies listed above.**
 

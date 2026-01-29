@@ -461,10 +461,12 @@ This software includes cryptographic and security analysis capabilities that may
 **The maintainers:**
 - Are not export control experts or legal advisors
 - Make no representations regarding export control status
-- Accept no liability for export control violations
+- Do not provide legal advice regarding export compliance
 - Recommend consulting with qualified legal counsel
 
 **This information is provided for general awareness only and does not constitute legal advice.**
+
+**For complete legal terms including indemnification clauses, see the [LICENSE](LICENSE) file.**
 
 For official guidance, contact:
 - **U.S. Department of Commerce, Bureau of Industry and Security (BIS)**
