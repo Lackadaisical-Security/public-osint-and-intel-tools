@@ -82,6 +82,52 @@ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
    c) This License shall be governed by the laws of the jurisdiction in which 
       Lackadaisical Security resides, excluding its conflict-of-law provisions
 
+10. EXPORT CONTROL COMPLIANCE
+   a) This software may be subject to U.S. Export Administration Regulations 
+      (EAR) and other export control laws
+   b) You agree to comply with all applicable export control laws and 
+      regulations, including but not limited to:
+      - U.S. Export Administration Regulations (EAR)
+      - International Traffic in Arms Regulations (ITAR)
+      - Sanctions administered by the Office of Foreign Assets Control (OFAC)
+   c) You represent and warrant that:
+      - You are not located in, or a national of, any country subject to U.S. 
+        embargo or sanctions (including but not limited to Cuba, Iran, North 
+        Korea, Syria, Crimea region)
+      - You are not listed on any U.S. government denied party list (including 
+        Denied Persons List, Entity List, or Specially Designated Nationals 
+        List)
+      - You will not use the Work in connection with any prohibited end-use, 
+        including nuclear, chemical, biological weapons, or missile technology
+   d) You acknowledge that the Work includes cryptographic and security 
+      analysis capabilities that may be subject to export controls
+   e) You are solely responsible for determining and complying with your 
+      export control obligations
+   f) The Licensor makes no representations or warranties regarding export 
+      control classification or compliance
+   g) This License does not grant any rights to export, re-export, or transfer 
+      the Work in violation of applicable laws
+   h) You agree to indemnify and hold harmless Lackadaisical Security from any 
+      claims arising from your violation of export control laws
+
+11. RESTRICTED COUNTRIES NOTICE
+   EXPORT, RE-EXPORT, OR TRANSFER OF THIS SOFTWARE TO THE FOLLOWING COUNTRIES 
+   OR REGIONS MAY BE RESTRICTED OR PROHIBITED UNDER U.S. LAW:
+   - Cuba
+   - Iran
+   - North Korea (Democratic People's Republic of Korea)
+   - Syria
+   - Crimea, Donetsk, and Luhansk regions of Ukraine
+   - Any other countries subject to comprehensive U.S. sanctions
+   
+   USERS MUST VERIFY CURRENT RESTRICTIONS AT:
+   - U.S. Department of Commerce Bureau of Industry and Security: 
+     https://www.bis.doc.gov/
+   - U.S. Department of Treasury OFAC: https://ofac.treasury.gov/
+   
+   Sanctions lists are subject to change. Users are responsible for staying 
+   informed of current regulations.
+
 END OF TERMS AND CONDITIONS
 
 For more information about Lackadaisical Security and our security research, 

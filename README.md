@@ -380,6 +380,107 @@ python standalone/run_all.py example.com
 
 **See [PRIVACY.md](PRIVACY.md) and [SECURITY.md](SECURITY.md) for details.**
 
+## 🌍 US Export Control & Country Restrictions
+
+### Export Control Classification
+
+This software may be subject to **U.S. Export Administration Regulations (EAR)** and other export control laws.
+
+**Classification:** This software is believed to be classified under **ECCN 5D002** (Information Security Software) or may qualify for **License Exception TSU** (Technology and Software - Unrestricted) under EAR §740.13(e) as publicly available encryption source code.
+
+**Encryption Notice:** This software includes or may use cryptographic functionality that is subject to export controls. Users are responsible for complying with all applicable export control laws and regulations.
+
+### Restricted Countries & Entities
+
+**⚠️ WARNING:** Export, re-export, or transfer of this software to the following countries or entities may be restricted or prohibited under U.S. law:
+
+**OFAC Sanctioned Countries (as of 2025-2026):**
+- 🚫 Cuba
+- 🚫 Iran
+- 🚫 North Korea (DPRK)
+- 🚫 Syria
+- 🚫 Crimea, Donetsk, and Luhansk regions of Ukraine
+- 🚫 Other countries subject to comprehensive U.S. sanctions
+
+**Additional Restrictions:**
+- Countries subject to U.S. arms embargo
+- Entities on the U.S. Denied Persons List, Entity List, or Specially Designated Nationals (SDN) List
+- Any individual or entity prohibited from receiving U.S. exports
+
+**Note:** Sanctions lists change frequently. Users must verify current restrictions at:
+- U.S. Department of Commerce Bureau of Industry and Security (BIS): https://www.bis.doc.gov/
+- U.S. Department of Treasury Office of Foreign Assets Control (OFAC): https://ofac.treasury.gov/
+- U.S. Department of State Directorate of Defense Trade Controls (DDTC): https://www.pmddtc.state.gov/
+
+### User Responsibilities
+
+**By downloading, using, or distributing this software, you agree that:**
+
+1. **Compliance:** You are solely responsible for compliance with all applicable export control laws and regulations, including but not limited to the U.S. Export Administration Regulations (EAR), International Traffic in Arms Regulations (ITAR), and sanctions administered by OFAC.
+
+2. **No Prohibited Use:** You will not use, export, re-export, or transfer this software:
+   - To or from any sanctioned country or region
+   - To any denied party or restricted entity
+   - For any prohibited end-use (e.g., nuclear, chemical, or biological weapons; missile technology)
+   - In violation of any applicable laws or regulations
+
+3. **Due Diligence:** You will conduct appropriate due diligence to ensure your use complies with all applicable laws, including:
+   - Screening parties against denied party lists
+   - Determining proper export classification
+   - Obtaining necessary licenses or authorizations
+   - Maintaining appropriate records
+
+4. **No Warranty of Compliance:** The maintainers make no representations or warranties regarding export control classification or compliance. Users must make their own determinations.
+
+5. **Indemnification:** You agree to indemnify and hold harmless the maintainers from any claims, damages, or liabilities arising from your violation of export control laws.
+
+### License Requirement Disclaimer
+
+**IMPORTANT:** While this software is open source and publicly available, its distribution may still require export licenses or authorizations in certain circumstances. The maintainers do not provide legal advice regarding export compliance.
+
+**Consult with legal counsel or export control specialists if:**
+- You are located in or exporting to a sanctioned country
+- You are exporting to a denied party or restricted entity
+- You are using the software for sensitive applications
+- You are uncertain about your export control obligations
+
+### Encryption and Security Technology Notice
+
+This software includes cryptographic and security analysis capabilities that may be subject to export controls under EAR Category 5, Part 2 (Information Security). These capabilities include:
+- Encryption and decryption functionality
+- Network security analysis tools
+- Penetration testing capabilities
+- Intelligence gathering software
+
+**Users outside the United States must comply with local laws regarding:**
+- Import of cryptographic software
+- Use of encryption technology
+- Cybersecurity tools and applications
+- Intelligence gathering and surveillance technology
+
+### Disclaimer
+
+**The maintainers:**
+- Are not export control experts or legal advisors
+- Make no representations regarding export control status
+- Accept no liability for export control violations
+- Recommend consulting with qualified legal counsel
+
+**This information is provided for general awareness only and does not constitute legal advice.**
+
+For official guidance, contact:
+- **U.S. Department of Commerce, Bureau of Industry and Security (BIS)**
+  - Website: https://www.bis.doc.gov/
+  - Email: exportcontrol@bis.doc.gov
+  - Phone: +1 (202) 482-4811
+
+- **U.S. Department of State, Directorate of Defense Trade Controls (DDTC)**
+  - Website: https://www.pmddtc.state.gov/
+  - Email: DDTCResponseTeam@state.gov
+
+**Last Updated:** January 2026  
+**Note:** Export control laws and sanctions lists are subject to change. Users are responsible for staying informed of current regulations.
+
 ## 🤝 Contributing
 
 We welcome quality contributions from skilled developers.
