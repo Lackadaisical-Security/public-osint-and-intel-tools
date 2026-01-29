@@ -435,8 +435,14 @@ Many countries regulate encryption import and use. Verify local laws before impo
 1. **Pre-Use Screening**
    ```bash
    # Example: Check if IP address is in sanctioned country
-   # (This is illustrative - use proper screening tools)
-   curl -s "https://ipapi.co/IP_ADDRESS/json/" | jq '.country'
+   # (This is illustrative only - use official screening tools)
+   # Replace IP_ADDRESS with the actual IP address to check
+   curl -s "https://ipapi.co/1.2.3.4/json/" | jq '.country'
+   
+   # For official screening, use:
+   # - BIS Consolidated Screening List API
+   # - Commercial export compliance software
+   # - Legal counsel screening services
    ```
 
 2. **Regular Monitoring**
@@ -492,7 +498,7 @@ Many countries regulate encryption import and use. Verify local laws before impo
 **Industry Resources:**
 - Wassenaar Arrangement: https://www.wassenaar.org/
 - Export Compliance Training Institute: https://www.exportuniversity.com/
-- Bureau of Industry and Security Webinars: https://www.bis.doc.gov/index.php/forms-documents/regulations-docs/2326-general-webinar-schedule/file
+- Bureau of Industry and Security Training: https://www.bis.doc.gov/
 
 ### Export Control Checklist
 

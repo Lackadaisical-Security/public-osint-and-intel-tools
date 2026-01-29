@@ -394,7 +394,7 @@ This software may be subject to **U.S. Export Administration Regulations (EAR)**
 
 **⚠️ WARNING:** Export, re-export, or transfer of this software to the following countries or entities may be restricted or prohibited under U.S. law:
 
-**OFAC Sanctioned Countries (as of 2025-2026):**
+**OFAC Sanctioned Countries (as of January 2026):**
 - 🚫 Cuba
 - 🚫 Iran
 - 🚫 North Korea (DPRK)
@@ -431,8 +431,6 @@ This software may be subject to **U.S. Export Administration Regulations (EAR)**
    - Maintaining appropriate records
 
 4. **No Warranty of Compliance:** The maintainers make no representations or warranties regarding export control classification or compliance. Users must make their own determinations.
-
-5. **Indemnification:** You agree to indemnify and hold harmless the maintainers from any claims, damages, or liabilities arising from your violation of export control laws.
 
 ### License Requirement Disclaimer
 
