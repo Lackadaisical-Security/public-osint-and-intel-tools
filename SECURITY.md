@@ -286,6 +286,261 @@ git push --force --all
 - Follow responsible disclosure
 - Consult legal counsel for sensitive operations
 
+## Export Control & International Compliance
+
+### U.S. Export Administration Regulations (EAR)
+
+This software contains security analysis and cryptographic capabilities that may be subject to U.S. export controls.
+
+**Classification Information:**
+- **ECCN**: Potentially 5D002 (Information Security Software)
+- **License Exception**: May qualify for TSU (Technology and Software - Unrestricted) under EAR §740.13(e)
+- **Controlled Capabilities**: Encryption, penetration testing, network security analysis
+
+### Restricted Destinations
+
+**The following countries and regions are subject to U.S. sanctions and export restrictions:**
+
+**Comprehensive Sanctions (as of January 2026):**
+- 🚫 **Cuba** - Comprehensive trade embargo
+- 🚫 **Iran** - Comprehensive sanctions program
+- 🚫 **North Korea (DPRK)** - Comprehensive sanctions
+- 🚫 **Syria** - Comprehensive sanctions
+- 🚫 **Crimea, Donetsk, and Luhansk regions of Ukraine** - Regional sanctions
+
+**Other Restricted Parties:**
+- Entities on the Denied Persons List
+- Entities on the Entity List
+- Specially Designated Nationals (SDN) List
+- Unverified List
+- Military End-User (MEU) List
+
+**Verify current restrictions:**
+- **BIS**: https://www.bis.doc.gov/index.php/policy-guidance/lists-of-parties-of-concern
+- **OFAC**: https://ofac.treasury.gov/specially-designated-nationals-and-blocked-persons-list-sdn-human-readable-lists
+- **State Department**: https://www.pmddtc.state.gov/
+
+### User Export Control Obligations
+
+**Before using this software, you must:**
+
+1. **Verify Location Compliance**
+   - Ensure you are not located in a sanctioned country
+   - Verify your organization is not on a denied party list
+   - Check end-user screening requirements
+
+2. **Determine Export Classification**
+   - Understand the software's ECCN classification
+   - Determine if a license is required for your use case
+   - Consult with export compliance specialists if needed
+
+3. **Screen Parties**
+   - Screen all parties involved against denied party lists
+   - Maintain records of screening activities
+   - Implement ongoing monitoring procedures
+
+4. **Document Compliance**
+   - Maintain export compliance records
+   - Document authorization and screening
+   - Retain records per regulatory requirements (typically 5 years)
+
+5. **Obtain Necessary Authorizations**
+   - Apply for export licenses if required
+   - Obtain written authorization for all intelligence operations
+   - Ensure compliance with destination country import laws
+
+### International Users
+
+**Non-U.S. users must also comply with:**
+
+**European Union:**
+- EU Dual-Use Regulation (2021/821)
+- General Data Protection Regulation (GDPR)
+- Network and Information Security (NIS) Directive
+- Local cybersecurity laws
+
+**United Kingdom:**
+- Export Control Order 2008
+- UK Strategic Export Controls
+- Investigatory Powers Act 2016
+
+**Canada:**
+- Export and Import Permits Act
+- Defence Production Act
+- Criminal Code provisions on unauthorized computer use
+
+**Australia:**
+- Defence Trade Controls Act 2012
+- Export Control List
+- Cybercrime Act
+
+**Asia-Pacific:**
+- Wassenaar Arrangement participant countries
+- Local encryption import/export regulations
+- Cybersecurity and intelligence laws
+
+**Middle East & Africa:**
+- Local encryption regulations (many countries restrict or ban encryption)
+- Intelligence gathering prohibitions
+- Cybersecurity laws
+
+### Prohibited End-Uses
+
+**This software must NOT be used in connection with:**
+- ❌ Nuclear weapons or nuclear explosive devices
+- ❌ Chemical or biological weapons
+- ❌ Missile systems (rocket systems, unmanned aerial vehicles)
+- ❌ Military intelligence against allied nations
+- ❌ Terrorism or terrorist organizations
+- ❌ Human rights violations
+- ❌ Proliferation of weapons of mass destruction
+
+### Deemed Export Considerations
+
+**"Deemed Export" occurs when:**
+- Technology or source code is disclosed to foreign nationals
+- Within the U.S. or abroad
+- Including remote access by foreign nationals
+
+**Compliance requirements:**
+- Screen foreign nationals against denied party lists
+- Determine if technology release requires authorization
+- Maintain records of technology transfers
+- Implement access controls for restricted technology
+
+### Encryption Technology Notice
+
+**This software includes encryption capabilities subject to export controls:**
+
+**Included Cryptographic Functions:**
+- Secure credential storage (encryption at rest)
+- Secure logging (encrypted audit trails)
+- TLS/SSL certificate analysis
+- Encrypted communication channels
+- Cryptographic hashing and signing
+
+**Export Control Status:**
+- May qualify for License Exception ENC or TSU
+- Users must verify their specific use case
+- Commercial encryption may require CCATS registration
+- Open-source availability does NOT eliminate export obligations
+
+**International Users:**
+Many countries regulate encryption import and use. Verify local laws before importing or using encryption technology.
+
+### Sanctions Screening Procedures
+
+**Recommended screening process:**
+
+1. **Pre-Use Screening**
+   ```bash
+   # Example: Check if IP address is in sanctioned country
+   # (This is illustrative only - use official screening tools)
+   # Replace the example IP (1.2.3.4) with the actual IP address to check
+   curl -s "https://ipapi.co/1.2.3.4/json/" | jq '.country'
+   
+   # For official screening, use:
+   # - BIS Consolidated Screening List API
+   # - Commercial export compliance software
+   # - Legal counsel screening services
+   ```
+
+2. **Regular Monitoring**
+   - Subscribe to BIS and OFAC updates
+   - Review sanctioned countries list quarterly
+   - Update screening procedures as regulations change
+
+3. **Maintain Records**
+   - Document all screening activities
+   - Retain records for minimum 5 years
+   - Include date, methodology, and results
+
+### Export Violation Penalties
+
+**Violations of export control laws can result in:**
+
+**Civil Penalties:**
+- Up to $300,000 per violation (or twice the value of the transaction)
+- Denial of export privileges
+- Seizure of goods
+
+**Criminal Penalties:**
+- Up to $1,000,000 in fines (per violation)
+- Up to 20 years imprisonment
+- Forfeiture of property
+
+**Corporate Penalties:**
+- Debarment from government contracts
+- Reputation damage
+- Loss of export privileges
+- Enhanced compliance monitoring
+
+### Compliance Resources
+
+**U.S. Government Agencies:**
+
+**Bureau of Industry and Security (BIS)**
+- Website: https://www.bis.doc.gov/
+- Email: exportcontrol@bis.doc.gov
+- Phone: +1 (202) 482-4811
+- Export Counseling: https://www.bis.doc.gov/index.php/about-bis/export-counseling
+
+**Office of Foreign Assets Control (OFAC)**
+- Website: https://ofac.treasury.gov/
+- Hotline: +1 (800) 540-6322
+- Email: ofac.feedback@treasury.gov
+
+**Directorate of Defense Trade Controls (DDTC)**
+- Website: https://www.pmddtc.state.gov/
+- Email: DDTCResponseTeam@state.gov
+- Phone: +1 (202) 663-1282
+
+**Industry Resources:**
+- Wassenaar Arrangement: https://www.wassenaar.org/
+- Export Compliance Training Institute: https://www.exportuniversity.com/
+- Bureau of Industry and Security Training: https://www.bis.doc.gov/
+
+### Export Control Checklist
+
+**Before using or distributing this software:**
+
+- [ ] Verified not located in sanctioned country
+- [ ] Screened all parties against denied party lists
+- [ ] Determined export classification (ECCN)
+- [ ] Verified no license required (or obtained license)
+- [ ] Reviewed prohibited end-uses
+- [ ] Documented compliance activities
+- [ ] Obtained legal counsel review (if needed)
+- [ ] Implemented ongoing monitoring procedures
+- [ ] Trained personnel on export compliance
+- [ ] Established record-keeping procedures
+
+### Disclaimer
+
+**IMPORTANT LEGAL DISCLAIMER:**
+
+The export control information provided in this document is for general informational purposes only and does not constitute legal advice. Export control laws and regulations are complex and subject to change.
+
+**The maintainers:**
+- Are not export control attorneys or licensed advisors
+- Make no representations regarding the accuracy or completeness of this information
+- Do not provide legal advice regarding export compliance
+- Strongly recommend consulting with qualified legal counsel and export compliance professionals
+
+**Users are solely responsible for:**
+- Determining their export control obligations
+- Obtaining necessary licenses and authorizations
+- Complying with all applicable laws and regulations
+- Staying informed of regulatory changes
+- Implementing appropriate compliance programs
+
+**For complete legal terms including indemnification and liability provisions, see the [LICENSE](LICENSE) file.**
+
+**For official guidance, contact the relevant government agencies listed above.**
+
+**Last Updated:** January 2026  
+**Review Frequency:** Quarterly or when regulations change
+
 ## Compliance & Certifications
 
 ### Standards
