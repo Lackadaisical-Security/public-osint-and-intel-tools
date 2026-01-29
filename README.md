@@ -2,7 +2,7 @@
   <img src="OSINTandIntel-icon.png" alt="OSINT & Intel Tools" width="256" height="256">
 </p>
 
-<h1 align="center">Public OSINT & Intelligence Gathering Tools</h1>
+<h1 align="center">Lackadaisical OSINT and Intel Toolkit</h1>
 
 <p align="center">
   <strong>Production-grade multi-language toolkit for Open Source Intelligence (OSINT) gathering and reconnaissance</strong>
